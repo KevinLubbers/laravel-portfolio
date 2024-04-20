@@ -7,7 +7,9 @@ Personal Portfolio site made using Laravel
 3. run "vendor/bin/sail up -d" command
 	- instead of typing vendor/bin/sail over and over again you can create an alias
 	- in ~/.bashrc or ~/.zshrc paste the following code to shorten "vendor/bin/sail" to just "sail"
-	- > alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+	- >```
+ alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+```
 
 4. run "vendor/bin/sail npm install"
 5. run "vendor/bin/sail php artisan key:generate"
